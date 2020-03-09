@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <UserSecretsId>dotnet-MqRpc.Server-CC9C1152-7A19-47EB-8803-1CA6C68420E0</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="6.2.1" />
+        <PackageReference Include="MassTransit.RabbitMQ" Version="6.2.1" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MqRpc\MqRpc.csproj" />
+    </ItemGroup>
+</Project>

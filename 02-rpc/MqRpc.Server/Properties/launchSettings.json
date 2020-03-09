@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "MqRpc.Server": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

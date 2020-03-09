@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MqRpc", "MqRpc\MqRpc.csproj", "{713A8D02-38ED-4C20-9F28-F812FEBE844F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MqRpc.Server", "MqRpc.Server\MqRpc.Server.csproj", "{B9DF767A-CD6F-4BD9-A0D6-2CEF5A03652F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MqRpc.Client", "MqRpc.Client\MqRpc.Client.csproj", "{1C604F64-D6D4-45DE-A926-284E01520A07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{713A8D02-38ED-4C20-9F28-F812FEBE844F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713A8D02-38ED-4C20-9F28-F812FEBE844F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713A8D02-38ED-4C20-9F28-F812FEBE844F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713A8D02-38ED-4C20-9F28-F812FEBE844F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9DF767A-CD6F-4BD9-A0D6-2CEF5A03652F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9DF767A-CD6F-4BD9-A0D6-2CEF5A03652F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9DF767A-CD6F-4BD9-A0D6-2CEF5A03652F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9DF767A-CD6F-4BD9-A0D6-2CEF5A03652F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C604F64-D6D4-45DE-A926-284E01520A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C604F64-D6D4-45DE-A926-284E01520A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C604F64-D6D4-45DE-A926-284E01520A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C604F64-D6D4-45DE-A926-284E01520A07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
