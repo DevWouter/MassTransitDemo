@@ -51,7 +51,7 @@ namespace MqDemo.Generator
                     case ConsoleKey.Enter:
                     {
                         // Send all
-                        SendMessages(bus, messages);
+                        await SendMessages(bus, messages);
                         messages = new List<MessageType>();
                         break;
                     }
@@ -61,21 +61,21 @@ namespace MqDemo.Generator
             await bus.StopAsync();
         }
 
-        private static void SendMessages(IBus bus, List<MessageType> messages)
+        private static async Task SendMessages(IBus bus, List<MessageType> messages)
         {
             foreach (var messageType in messages)
             {
                 switch (messageType)
                 {
                     case MessageType.Fast:
-                        bus.Publish(new FastSpeedMessage
+                        await bus.Publish(new FastSpeedMessage
                         {
                             Index = totalMessageCounter++,
                             TypedIndex = fastMessageCounter++
                         });
                         break;
                     case MessageType.Slow:
-                        bus.Publish(new SlowSpeedMessage
+                        await bus.Publish(new SlowSpeedMessage
                         {
                             Index = totalMessageCounter++,
                             TypedIndex = slowMessageCounter++
