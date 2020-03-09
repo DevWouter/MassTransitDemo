@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MqDemo", "MqDemo\MqDemo.csproj", "{F9277612-FEDB-4424-AEF3-9249E0C2F007}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MqDemo.Generator", "MqDemo.Generator\MqDemo.Generator.csproj", "{887555FA-57BE-4EBB-BEF6-12219BEB08AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MqDemo.FastSpeed", "MqDemo.FastSpeed\MqDemo.FastSpeed.csproj", "{09072C10-2260-427B-86D8-B60A178B9C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MqDemo.SlowSpeed", "MqDemo.SlowSpeed\MqDemo.SlowSpeed.csproj", "{F7ADA66C-DB0F-4BEB-835A-FC406506395F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9277612-FEDB-4424-AEF3-9249E0C2F007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9277612-FEDB-4424-AEF3-9249E0C2F007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9277612-FEDB-4424-AEF3-9249E0C2F007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9277612-FEDB-4424-AEF3-9249E0C2F007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{887555FA-57BE-4EBB-BEF6-12219BEB08AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{887555FA-57BE-4EBB-BEF6-12219BEB08AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{887555FA-57BE-4EBB-BEF6-12219BEB08AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{887555FA-57BE-4EBB-BEF6-12219BEB08AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09072C10-2260-427B-86D8-B60A178B9C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09072C10-2260-427B-86D8-B60A178B9C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09072C10-2260-427B-86D8-B60A178B9C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09072C10-2260-427B-86D8-B60A178B9C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7ADA66C-DB0F-4BEB-835A-FC406506395F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7ADA66C-DB0F-4BEB-835A-FC406506395F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7ADA66C-DB0F-4BEB-835A-FC406506395F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7ADA66C-DB0F-4BEB-835A-FC406506395F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

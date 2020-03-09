@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <UserSecretsId>dotnet-MqDemo.SlowSpeed-A4D8BBA4-281C-4357-BB24-4033B77DBC73</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="6.2.1" />
+        <PackageReference Include="MassTransit.RabbitMQ" Version="6.2.1" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MqDemo\MqDemo.csproj" />
+    </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "MqDemo.SlowSpeed": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

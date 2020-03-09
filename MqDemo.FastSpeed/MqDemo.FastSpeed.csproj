@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <UserSecretsId>dotnet-MqDemo.HighSpeed-F6B0B71B-12A4-41ED-895D-8E4E9380EA1F</UserSecretsId>
+        <RootNamespace>MqDemo.HighSpeed</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="6.2.1" />
+        <PackageReference Include="MassTransit.RabbitMQ" Version="6.2.1" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MqDemo\MqDemo.csproj" />
+    </ItemGroup>
+</Project>
