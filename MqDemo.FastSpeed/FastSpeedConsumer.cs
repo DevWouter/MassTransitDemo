@@ -9,9 +9,12 @@ namespace MqDemo.FastSpeed
     {
         public Task Consume(ConsumeContext<FastSpeedMessage> context)
         {
-            Console.WriteLine($"FastIndex: {context.Message.TypedIndex} -- Index: {context.Message.Index}");
+            Console.WriteLine($"START  FastIndex: {context.Message.TypedIndex} -- Index: {context.Message.Index}");
             
             Thread.Sleep(10);
+            
+            Console.WriteLine($"FINISH FastIndex: {context.Message.TypedIndex} -- Index: {context.Message.Index}");
+
 
             return Task.CompletedTask;
         }
